@@ -18,13 +18,13 @@ const Sidebar = () => {
             <div className='sidebar-paper'>
                 <div className='s-top'>
                     <div className='s-header'>
-                        <div className='s-logocont'>
+                        <div className='s-logocont' onClick={() => navigate("/")}>
                             <img src={Logo} alt="logo" className='sidebar-logo' />
                         </div>
                         <h2>Metrix</h2>
                     </div>
                     <div className='s-content'>
-                        <button className='s-list'>
+                        <button className='s-list' onClick={() => navigate("/")}>
                             <div className='s-innerbutton'>
                                 <RxDashboard className='s-logo' />
                                 <h2>Dashboard</h2>

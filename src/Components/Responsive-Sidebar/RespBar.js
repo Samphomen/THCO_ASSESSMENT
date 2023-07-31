@@ -13,13 +13,17 @@ const RespBar = ({ openSidebar, setOpenSidebar }) => {
         navigate("/messages/")
         setOpenSidebar(false)
     }
+    const closeWhenReload = () => {
+        navigate("/")
+        setOpenSidebar(false)
+    }
 
 
     return (
         <div className={`${openSidebar ? 'rsidebar show' : 'rsidebar'}`}>
             <div className='rs-paper'>
                 <div className='rs-content'>
-                    <button className='rs-list'>
+                    <button className='rs-list' onClick={() => closeWhenReload()}>
                         <div className='s-innerbutton'>
                             <RxDashboard className='s-logo' />
                             <h2>Dashboard</h2>
