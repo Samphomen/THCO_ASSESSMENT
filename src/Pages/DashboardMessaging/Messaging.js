@@ -29,7 +29,7 @@ const Messaging = () => {
                     <DNavbar params={params} title={title} openSidebar={openSidebar} setOpenSidebar={setOpenSidebar} showSidebar={showSidebar} setShowSidebar={setShowSidebar} showAccount={showAccount} setShowAccount={setShowAccount} />
                 </div>
                 <div>
-                    <RespBar openSidebar={openSidebar} />
+                    <RespBar openSidebar={openSidebar} setOpenSidebar={setOpenSidebar} />
                 </div>
                 <div className='hero'>
                     <div className='chat-container'>

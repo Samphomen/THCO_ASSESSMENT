@@ -5,8 +5,16 @@ import { AiOutlineSetting, AiOutlineGift } from 'react-icons/ai'
 import { HiOutlineClipboardList, HiUsers, HiOutlineFolderRemove, HiOutlineChat} from 'react-icons/hi'
 import { FiHeadphones } from 'react-icons/fi'
 import { TbLogout } from 'react-icons/tb'
+import { useNavigate } from "react-router-dom"
 
-const RespBar = ({ openSidebar }) => {
+const RespBar = ({ openSidebar, setOpenSidebar }) => {
+    const navigate = useNavigate()
+    const closeWhenNavigate = () => {
+        navigate("/messages/")
+        setOpenSidebar(false)
+    }
+
+
     return (
         <div className={`${openSidebar ? 'rsidebar show' : 'rsidebar'}`}>
             <div className='rs-paper'>
@@ -36,7 +44,7 @@ const RespBar = ({ openSidebar }) => {
                                 <h2>Inventory</h2>
                             </div>
                     </button>
-                    <button className='rs-list'>
+                    <button className='rs-list' onClick={() => closeWhenNavigate()}>
                             <div className='s-innerbutton'>
                                 <HiOutlineChat className='s-logo' />
                                 <h2>Conversations</h2>

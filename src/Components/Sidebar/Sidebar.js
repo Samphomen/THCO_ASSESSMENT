@@ -49,7 +49,7 @@ const Sidebar = () => {
                                 <h2>Inventory</h2>
                             </div>
                         </button>
-                        <button className='s-list'>
+                        <button className='s-list' onClick={() => navigate("/messages/")}>
                             <div className='s-innerbutton'>
                                 <HiOutlineChat className='s-logo' />
                                 <h2>Conversations</h2>
