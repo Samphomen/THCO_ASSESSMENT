@@ -1,0 +1,21 @@
+.dmar-container{
+    border: 1px solid transparent;
+    background: white;
+    border-radius: 8px;
+}
+
+.dmar-paper{
+    width: 87.5%;
+    margin: 20px auto 10px;
+}
+
+.dmar-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dmar-header h2{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+}

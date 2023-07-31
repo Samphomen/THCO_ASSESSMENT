@@ -1,0 +1,320 @@
+.sidebar {
+    width: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    height: 150vh;
+}
+
+.sidebar-paper{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.s-top{
+    margin-bottom: auto;
+}
+
+.s-header {
+    display: flex;
+    width: 55%;
+    height: 55px;
+    margin: 10px 0 40px;
+}
+
+.s-logocont {
+    width: 42%;
+    height: 52px;   
+}
+
+.ikook-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.s-header h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin: auto 7px;
+}
+
+.s-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.s-list {
+    height: 55px;
+    background-color: white;
+    border: transparent;
+    border-radius: 12px;
+}
+
+.s-innerbutton{
+    width: 86%;
+    display: flex;
+    margin-left: 10px;
+}
+
+.s-list:hover {
+    background: #5570F1;
+    color: white;
+}
+
+.s-list h2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-align: justify; 
+    margin: auto 5px;  
+}
+
+.s-ib-amount{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #FFCC91;
+    margin-left: 10px;
+}
+
+.s-ib-amount h2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin: 3px auto 0;
+}
+
+.s-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+
+.s-footer {
+    border: 1px solid transparent;
+}
+
+.s-footer p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #323335;
+}
+
+.s-f-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.s-f-b1{
+    height: 55px;
+    width: 100%;
+    background-color: rgba(94, 99, 102, 0.1);
+    border: transparent;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.s-f-inner-b1{
+    width: 80%;
+    display: flex;
+    margin-left: 10px;
+}
+
+.s-f-inner-b1 p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify; 
+    margin: auto 0px;
+}
+
+.s-f-b2{
+    height: 82px;
+    width: 100%;
+    background-color: rgba(255, 204, 145, 0.2);
+    border: transparent;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.s-f-inner-b2{
+    width: 80%;
+    margin-left: 10px;
+}
+
+.s-f-b2-top{
+    display: flex;
+}
+
+.s-f-b2-top p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify; 
+    margin: auto 0px;
+}
+
+.s-f-b2-bottom{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.s-f-b2-bottom p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: justify; 
+    margin: auto 0px;
+}
+
+.s-f-logo2{
+    width: 10px;
+    height: 10px;
+    margin: auto 0;
+}
+
+.s-f-b3{
+    height: 55px;
+    width: 100%;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.s-f-inner-b3{
+    width: 45%;
+    display: flex;
+    margin-left: 10px;
+}
+
+.s-f-inner-b3 p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify; 
+    margin: auto 0px;
+    color: #CC5F5F;
+}
+
+.s-f-logo3{
+    width: 24px;
+    height: 24px;
+    color: #CC5F5F;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    .s-header {
+        display: none;
+    }
+
+    .s-content {
+        margin: 40px 60px 0 25px;
+    }
+
+    .s-profile {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid red;
+    }
+
+    .s-footer {
+        display: none;
+    }
+
+    .s-list h2 {
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .s-extras {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .s-list1 {
+        height: 30px;
+        background-color: white;
+        border: transparent;
+    }
+
+    .s-list1:hover {
+        background: #FCC01C;
+    }
+
+    .s-list1 h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #323335;
+        text-align: justify;
+        margin: 0 30px;
+    }
+
+    .s-logout {
+        display: block;
+        height: 60px;
+        background: #FCC01C;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #323335;
+        border: transparent;
+    }
+
+    .rs-acct {
+        border: 1px solid #FCC01C;
+        width: 141px;
+        overflow: hidden;
+    }
+
+    .rs-acct-paper {
+        /* border: 1px solid red; */
+        margin: 12px 12px 12px 18px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .rs-acct-paper h2 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #323335;
+    }
+
+    .rs-wallet-paper {
+        /* border: 1px solid red; */
+        margin: 10px;
+    }
+
+    .rs-wallet-paper h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 27px;
+        color: #323335;
+    }
+
+    .rs-wallet-logo {
+        font-size: 20px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+}

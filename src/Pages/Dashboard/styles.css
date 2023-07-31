@@ -1,0 +1,174 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: white;
+}
+
+.empty-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left {
+    /* border: 1px solid red; */
+    width: 21%;
+}
+
+.right {
+    /* border: 1px solid green; */
+    width: 79%;
+}
+
+.s-right {
+    /* border: 1px solid green; */
+    width: 100%;
+}
+
+.dh-hero {
+    border: 1px solid transparent;
+    background: #F7F7FC;
+}
+
+.dhomepage-paper{
+    /* border: 1px solid black; */
+    width: 97%;
+    margin: 25px auto 0;
+}
+
+.dhomepage-top{
+    /* border: 1px solid transparent; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dh-top-container{
+    border: 1px solid transparent;
+    background: white;
+    border-radius: 8px;
+    width: 29%;
+}
+
+.dh-top-container2{
+    border: 1px solid transparent;
+    width: 39%;
+    background: white;
+    border-radius: 8px;
+}
+
+.dhomepage-bottom{
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: 20px 0 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dhb-left{
+    /* border: 1px solid red; */
+    width: 59.5%;
+}
+
+.dhbl-top{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.dhbl-top-left{
+    /* border: 1px solid black; */
+    width: 48.5%;
+}
+
+.dhbl-top-right{
+    /* border: 1px solid black; */
+    width: 48.5%;
+}
+
+.dhbl-bottom{
+    /* border: 1px solid purple; */
+}
+
+.dhb-right{
+    /* border: 1px solid blue; */
+    width: 39%;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    .empty-page {
+        display: block;
+    }
+
+    .left {
+        width: 100%;
+        display: none;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .dhomepage-top{
+        width: 100%;
+        display: block;
+    }
+
+    .dh-top-container{
+        width: 100%;
+    }
+    
+    .dh-top-container2{
+        width: 100%;
+    }
+
+    .dhomepage-bottom{
+        border: 1px solid black;
+        width: 100%;
+        margin: 20px 0 0px;
+        display: block;
+    }
+
+    .dhb-left{
+        width: 100%;
+    }
+
+    .dhbl-top{
+        display: block;
+        width: 100%;
+    }
+
+    .dhbl-top-left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .dhbl-top-right{
+        width: 100%;
+    }
+
+    .dhbl-bottom{
+        margin-bottom: 20px;
+    }
+
+    .dhb-right{
+        width: 100%;
+    }
+}

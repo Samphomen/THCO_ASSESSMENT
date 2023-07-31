@@ -1,0 +1,193 @@
+.navbar {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.n-paper {
+    margin: 20px 20px 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-l{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.n-left {
+    width: 30px;
+    height: 30px;
+    margin: auto 0;
+    position: relative;
+    right: 18px;
+}
+
+.n-left button {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: transparent;
+}
+
+.s-arrow {
+    font-size: 20px;
+}
+
+.nav-top-left{
+    margin: auto 0;
+}
+
+.nav-top-left h1{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.nav-top-right{
+    display: flex;
+    justify-content: space-between;
+    width: 24%;
+}
+
+.n-tr-acct{
+    border: 1px solid #FEF5EA;
+    background-color: #FEF5EA;
+    width: 63%;
+}
+
+
+.n-acct {
+    border: 1px solid rgba(85, 112, 241, 0.12);
+    overflow: hidden;
+}
+
+.acct-paper {
+    margin: 3px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.acct-paper h2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin: auto 0;
+}
+
+.n-switch-logo {
+    width: 15%;
+    background: transparent;
+    border: transparent;
+}
+
+.n-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.dashboard-dropdown {
+    border: 1px solid rgba(85, 112, 241, 0.12);
+    width: 11.5%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -1px;
+}
+
+.dashboard-dropdown button {
+    /* height: 30px; */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    background: white;
+    border: transparent;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.dashboard-dropdown button:hover {
+    background: #5570F1;
+    color: white;
+}
+
+.n-tr-notif{
+    width: 10%;
+}
+
+.n-tr-notif-logocont{
+    width: 20px;
+    height: 20px;
+    margin: 5px auto;
+}
+
+.notif-logo{
+    width: 100%;
+    height: 100%;
+}
+
+.n-tr-profile{
+    width: 32px;
+}
+
+.n-tr-image{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-line{
+    border: 1px solid #F1F3F9;
+}
+
+.nav-bottom-paper{
+    margin: 3px 20px;
+    display: flex;
+}
+
+.nav-bottom-image{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.nav-params{
+    color: #5570F1;
+}
+
+.toggle-btn {
+    display: none;
+}
+
+@media screen and (max-width: 850px){
+    .n-tr-acct{
+        display: none;
+    }
+
+    .n-tr-notif{
+        display: none;
+    }
+
+    .n-tr-profile{
+        display: none;
+    }
+
+    .nav-top-right{
+        width: 10%;
+    }
+
+    .toggle-btn {
+        display: block;
+        /* border: 1px solid black; */
+        width: 100%;
+    }
+
+    .nov{
+        width: 100%;
+        height: 100%;
+        background: white;
+        border: none;
+    }
+}
+
+

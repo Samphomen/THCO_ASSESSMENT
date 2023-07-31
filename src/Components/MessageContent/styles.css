@@ -1,0 +1,408 @@
+.cm-container{
+    border: 1px solid transparent;
+    width: 100%;
+}
+
+.cm-header{
+    border-bottom: 1px solid #F1F3F9;
+}
+
+.cm-header-paper{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cm-h-left{
+    width: 50px;
+    height: 50px;
+}
+
+.cm-h-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.cm-h-right{
+    width: 91%;
+}
+
+.cm-hrt{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+
+.cm-hrt-left{
+    width: fit-content;
+}
+
+.cm-hrt-left h2{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.cm-hrt-right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cm-customer-status{
+    border: 1px solid #FFEAD1;
+    width: 52%;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    text-align: center;
+    background: #FFEAD1;
+    margin: auto 0;
+}
+
+.cm-hrt-right button{
+    width: 45%;
+    background: transparent;
+    border: transparent;
+    color: #5570F1;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+}
+
+.cm-hrb{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cm-hrb-left{
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #5570F1;
+    margin: 2px;
+}
+
+.cm-presence{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #5570F1;
+    display: flex;
+}
+
+.cm-hrb-left h3{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #8B8D97;
+}
+
+.cm-hrb-right{
+    width: 14%;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #8B8D97;
+    margin: auto 0;
+}
+
+.cm-order-logo{
+    color: black;
+    font-size: 17px;
+}
+
+
+.cm-body{
+    border: 1px solid transparent;
+}
+
+.cm-body-paper{
+    border: 1px solid transparent;
+    width: 94.5%;
+    margin: 12px auto;
+}
+
+.cm-b-date-container{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 0 auto 20px;
+    background: #F4F5FA;
+    border-radius: 8px;
+}
+
+.cm-b-date-paper{
+    width: 85%;
+    margin: 5px auto;
+}
+
+.cm-b-date-paper h2{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cm-b-productbox{
+    border-bottom: 1px solid #F1F3F9;
+    width: 42%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.cmbp-left{
+    width: 50px;
+    height: 50px;
+}
+
+.cmbp-left img{
+    width: 100%;
+    height: 100%;
+}
+
+.cmbp-right{
+    width: 80%;
+}
+
+.cmbp-rt{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.cmbp-rb{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cmbp-rb h2{
+    width: fit-content;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    margin: auto 0;
+}
+
+.cmbp-rb p{
+    width: fit-content;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 600;
+    margin: auto 0;
+}
+
+.cm-b-user-message{
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.cmb-umessage-container{
+    border: 1px solid #5570F1;
+    width: 100%;
+    background: #5570F1;
+    border-radius: 10px 10px 10px 0px;
+    margin-bottom: 5px;
+}
+
+.cmb-umessage-paper{
+    width: 91%;
+    margin: 15px auto;
+}
+
+.cmb-umessage-paper p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.cm-b-user-message h3{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #8B8D97;
+}
+
+.cm-b-admin-message{
+    width: 50%;
+    margin-bottom: 15px;
+    margin-left: auto;
+}
+
+.cmb-amessage-container{
+    border: 1px solid #FFEAD1;
+    width: 100%;
+    background: #FFEAD1;
+    border-radius: 10px 10px 0px 10px;
+    margin-bottom: 5px;
+}
+
+.cmb-amessage-paper{
+    width: 91%;
+    margin: 15px auto;
+}
+
+.cmb-amessage-paper p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: black;
+}
+
+
+.cmb-amessage-footer{
+    width: 30%;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cmb-amessage-footer h3{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #8B8D97;
+}
+
+.cmb-amessage-sent{
+    width: 20px;
+    height: 20px;
+    background: #FFEAD1;
+}
+
+.cmb-amessage-sent-icon{
+    width: 60%;
+    height: 60%;
+    margin: 3px;
+}
+
+.textbox{
+    border: 1px solid grey;
+    width: 100%;
+}
+
+.textbox-paper{
+    width: 97%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textbox-upload{
+    border: 1px solid transparent;
+    width: 32px;
+}
+
+.textbox-upload button{
+    width: 100%;
+    height: 100%;
+    background: #FFEAD1;
+    border: transparent;
+}
+
+.upload-icon{
+    width: 75%;
+    height: 75%;
+}
+
+.textbox-text{
+    display: flex;
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textbox-textinput{
+    width: 90%;
+}
+
+.textbox-textinput input{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+    padding: 0 5px;
+}
+
+.textbox-emoji-button{
+    border: 1px solid transparent;
+    width: 8%;
+}
+
+.textbox-emoji-button button{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: transparent;
+}
+
+.emoji-icon{
+    width: 60%;
+    height: 60%;
+    color: #5570F1;
+}
+
+
+.textbox-send{
+    border: 1px solid transparent;
+    width: 15%;
+}
+
+.textbox-send button{
+    width: 100%;
+    height: 100%;
+    background: #FFEAD1;
+    border: transparent;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 850px){
+    .cm-b-date-container{
+        width: 35%;
+        margin: 0 auto 20px;
+    }
+
+    .cm-b-productbox{
+        width: 60%;
+    }
+
+    .cm-b-user-message{
+        width: 60%;
+    }
+
+    .cm-b-admin-message{
+        width: 60%;
+    }
+
+    .cmb-amessage-footer{
+        width: fit-content;
+    }
+
+    .cm-h-right{
+        width: 85%;
+    }
+
+    .cm-hrb-left{
+        width: 35%;
+    }
+
+    .cm-hrt-right{
+        display: none;
+    }
+
+    .cm-hrb-right{
+        display: none;
+    }
+}

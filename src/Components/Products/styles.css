@@ -1,0 +1,66 @@
+.dpi-container{
+    border: 1px solid transparent;
+}
+
+.dpi-paper{
+    border: 1px solid transparent;
+    background: white;
+    border-radius: 8px;
+}
+
+.dpi-paper2{
+    border: 1px solid transparent;
+    margin-top: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+.dpi-innerpaper{
+    border: 1px solid transparent;
+    width: 91%;
+    margin: 10px auto;
+}
+
+.dpi-info-top{
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.dpi-iconcont{
+    background-color: rgba(85, 112, 241, 0.12);
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.dpi-iconcont2{
+    background-color: rgba(255, 204, 145, 0.16);
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.dpi-icon{
+    width: 60%;
+    height: 60%;
+    margin: 5px;
+}
+
+.dpi-info-bottom{
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .dhp-info-bottom2{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+.dpi-cart{
+    color: #CC5F5F;
+}
